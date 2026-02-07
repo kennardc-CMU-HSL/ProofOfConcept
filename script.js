@@ -1,4 +1,4 @@
-// List your video files, titles, and descriptions here
+// List of your videos with title and description
 const videos = [
   {
     src: 'videos/video1.mp4',
