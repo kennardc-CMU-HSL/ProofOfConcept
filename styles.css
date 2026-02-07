@@ -22,20 +22,21 @@ header p {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 900px; /* Reduced slightly to make the vertical list look cleaner */
   margin: 30px auto;
   padding: 0 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 20px;
+  /* CHANGED: This now forces one item per row */
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Increased gap for better separation between large videos */
 }
 
 .video-card {
   background: #fff;
   border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15); /* Slightly deeper shadow for larger cards */
   overflow: hidden;
-  padding: 10px;
+  padding: 15px; /* More padding for a premium feel */
 }
 
 .video-card video {
@@ -43,16 +44,17 @@ header p {
   height: auto;
   display: block;
   border-radius: 4px;
+  background-color: #000; /* Keeps the area black while loading */
 }
 
 .video-card h3 {
-  font-size: 16px;
-  margin: 10px 0 5px 0;
+  font-size: 20px; /* Bigger font for bigger cards */
+  margin: 15px 0 5px 0;
   text-align: center;
 }
 
 .video-card p {
-  font-size: 14px;
+  font-size: 16px; /* Bigger font for bigger cards */
   color: #555;
   text-align: center;
   margin: 0 0 10px 0;
