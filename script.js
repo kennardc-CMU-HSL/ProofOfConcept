@@ -1,19 +1,44 @@
 const videos = [
   {
-    src: 'videos/Cam01.mov',
+    src: 'videos/Cam06.mov',
     title: 'Video 1',
     description: 'Original Video (Left) vs Ours (Right)'
   },
   {
-    src: 'videos/Cam06.mov',
+    src: 'videos/f35_aperture2.4__scene6__videos/Cam01.mov',
     title: 'Video 2',
     description: 'Original Video (Left) vs Ours (Right)'
   },
   {
-    src: 'videos/Cam08.mov',
+    src: 'videos/seq_000096_output.mov',
     title: 'Video 3',
     description: 'Original Video (Left) vs Ours (Right)'
-  }
+  },
+  {
+    src: 'videos/Cam08.mov',
+    title: 'Video 4',
+    description: 'Original Video (Left) vs Ours (Right)'
+  },
+  {
+    src: 'videos/seq_000136_output.mov',
+    title: 'Video 5',
+    description: 'Original Video (Left) vs Ours (Right)'
+  },
+  {
+    src: 'videos/Cam01.mov',
+    title: 'Video 6',
+    description: 'Original Video (Left) vs Ours (Right)'
+  },
+  {
+    src: 'videos/Cam06_DifferTraj.mov',
+    title: 'Video 7',
+    description: 'Ours at different camera trajectories'
+  },
+  {
+    src: 'videos/f35_aperture2.4__scene6__videos/grid_output.mov',
+    title: 'Video 8',
+    description: 'Ours at different camera trajectories'
+  },
 ];
 
 const gallery = document.getElementById('video-gallery');
