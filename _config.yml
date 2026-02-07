@@ -1,0 +1,17 @@
+# Site settings
+title: An Early Stage Proof of Concept
+description: A snapshot of our early-stage project.
+baseurl: "" # leave empty for username.github.io
+url: "https://kennardc-cmu-hsl.github.io/ProofOfConcept/" # replace with your GitHub Pages URL
+
+# Theme settings
+theme: minima
+paginate: 6
+
+# Optional author info
+author:
+  name: Kennard Chan
+  email: kennardc@andrew.cmu.edu
+
+# Build settings
+markdown: kramdown
