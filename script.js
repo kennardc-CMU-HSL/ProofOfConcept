@@ -1,7 +1,7 @@
 const videos = [
   {
     src: 'videos/Cam01.mp4',
-    title: 'Video 1',
+    title: 'Video',
     description: 'Original Video (Left) vs Ours (Right)'
   },
   {
