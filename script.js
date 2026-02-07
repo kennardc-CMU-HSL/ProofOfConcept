@@ -1,16 +1,16 @@
 const videos = [
   {
-    src: 'videos/Cam01.mp4',
-    title: 'Video',
+    src: 'videos/Cam01.mov',
+    title: 'Video 1',
     description: 'Original Video (Left) vs Ours (Right)'
   },
   {
-    src: 'videos/Cam06.mp4',
+    src: 'videos/Cam06.mov',
     title: 'Video 2',
     description: 'Original Video (Left) vs Ours (Right)'
   },
   {
-    src: 'videos/Cam08.mp4',
+    src: 'videos/Cam08.mov',
     title: 'Video 3',
     description: 'Original Video (Left) vs Ours (Right)'
   }
