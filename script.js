@@ -2,17 +2,17 @@ const videos = [
   {
     src: 'videos/Cam01.mp4',
     title: 'Video 1',
-    description: 'This is the first video.'
+    description: 'Original Video (Left) vs Ours (Right)'
   },
   {
     src: 'videos/Cam06.mp4',
     title: 'Video 2',
-    description: 'This is the second video.'
+    description: 'Original Video (Left) vs Ours (Right)'
   },
   {
     src: 'videos/Cam08.mp4',
     title: 'Video 3',
-    description: 'This is the third video.'
+    description: 'Original Video (Left) vs Ours (Right)'
   }
 ];
 
