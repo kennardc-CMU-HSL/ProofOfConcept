@@ -1,17 +1,17 @@
 // List of your videos with title and description
 const videos = [
   {
-    src: 'videos/video1.mp4',
+    src: 'videos/cam06.mp4',
     title: 'Video 1',
     description: 'This is the first video showing our product in action.'
   },
   {
-    src: 'videos/video2.mp4',
+    src: 'videos/cam01.mp4',
     title: 'Video 2',
     description: 'This video explains the setup process step by step.'
   },
   {
-    src: 'videos/video3.mp4',
+    src: 'videos/cam08.mp4',
     title: 'Video 3',
     description: 'A short demo highlighting key features.'
   }
