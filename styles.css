@@ -1,4 +1,120 @@
-/* Add these to your existing styles.css */
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #f5f5f5;
+
+  color: #333;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+header {
+
+  text-align: center;
+
+  background: #2c3e50;
+
+  color: white;
+
+  padding: 20px 0;
+
+}
+
+
+
+header h1 {
+
+  margin: 0;
+
+}
+
+
+
+header p {
+
+  margin: 5px 0 0 0;
+
+}
+
+
+
+.container {
+
+  max-width: 900px; /* Reduced slightly to make the vertical list look cleaner */
+
+  margin: 30px auto;
+
+  padding: 0 20px;
+
+  /* CHANGED: This now forces one item per row */
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 40px; /* Increased gap for better separation between large videos */
+
+}
+
+
+
+.video-card {
+
+  background: #fff;
+
+  border-radius: 8px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15); /* Slightly deeper shadow for larger cards */
+
+  overflow: hidden;
+
+  padding: 15px; /* More padding for a premium feel */
+
+}
+
+
+
+.video-card video {
+
+  width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  border-radius: 4px;
+
+  background-color: #000; /* Keeps the area black while loading */
+
+}
+
+
+
+.video-card h3 {
+
+  font-size: 20px; /* Bigger font for bigger cards */
+
+  margin: 15px 0 5px 0;
+
+  text-align: center;
+
+}
+
+
+
+.video-card p {
+
+  font-size: 16px; /* Bigger font for bigger cards */
+
+  color: #555;
+
+  text-align: center;
 
 .section-title {
   text-align: center;
