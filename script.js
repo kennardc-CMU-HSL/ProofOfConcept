@@ -4,9 +4,10 @@ const videos = [
   { src: 'videos/seq_000096_output.mov', title: 'Video 3', description: 'Original Video (Left) vs Ours (Right)', category: 'comp' },
   { src: 'videos/Cam08.mov', title: 'Video 4', description: 'Original Video (Left) vs Ours (Right)', category: 'comp' },
   { src: 'videos/seq_000136_output.mov', title: 'Video 5', description: 'Original Video (Left) vs Ours (Right)', category: 'comp' },
-  { src: 'videos/Cam01.mov', title: 'Video 6', description: 'Original Video (Left) vs Ours (Right)', category: 'comp' },
+  { src: 'videos/f50_aperture2.4__scene106__videos/Cam01.mov', title: 'Video 6', description: 'Original Video (Left) vs Ours (Right)', category: 'comp' },
   { src: 'videos/Cam06_DifferTraj.mov', title: 'Video 7', description: 'Ours at different camera trajectories', category: 'traj' },
-  { src: 'videos/f35_aperture2.4__scene6__videos/grid_output.mov', title: 'Video 8', description: 'Ours at different camera trajectories', category: 'traj' },
+  { src: 'videos/f50_aperture2.4__scene106__videos/SideBySide.mov', title: 'Video 8', description: 'Ours at different camera trajectories', category: 'traj' },
+  { src: 'videos/f35_aperture2.4__scene6__videos/grid_output.mov', title: 'Video 9', description: 'Ours at different camera trajectories', category: 'traj' },
 ];
 
 function renderVideos() {
